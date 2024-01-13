@@ -55,6 +55,8 @@ public class q7 {
         Q.enqueue(4);
         Q.enqueue(5);
         Q.enqueue(6);
+        Q.dequeue();
+        Q.enqueue(7);
         while(!Q.isEmpty()){
             System.out.println(Q.peek());
             Q.dequeue();
